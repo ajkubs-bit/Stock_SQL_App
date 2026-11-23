@@ -22,9 +22,4 @@ DEMO
 - Verify changes in SSMS and refresh Power BI afterward.
 
 The script uses parameterized SQL. It does not store a password.
-Any inserts/updates affect the shared database. Use only synthetic test content
-for the classroom demo and coordinate changes with your project teammates.
-
-If interactive authentication has trouble identifying the account, contact
-whoever granted database access. It may require Entra database permissions
-or a local Azure SQL firewall rule.
+Any inserts/updates affect the shared database.
